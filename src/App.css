@@ -36,3 +36,39 @@
     transform: rotate(360deg);
   }
 }
+
+/**********************movies styles******************************************/
+
+.movie-details {
+  margin-left: 15px;
+}
+
+.title_rating {
+  display: flex;
+}
+
+.movie-subheader {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.movie-subheader > .subheader {
+  background: lightgray;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.app-component {
+  width: 65%;
+  border: 1px solid;
+  margin: auto;
+}
+
+.actors_plot {
+  margin-top: 20px;
+}
+
+.title_rating .rating {
+  color: rgb(140, 140, 218);
+}
